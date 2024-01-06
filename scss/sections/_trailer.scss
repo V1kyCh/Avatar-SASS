@@ -1,0 +1,25 @@
+.trailer {
+  background-image: url(../../img/trailer-bc.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: -11px 18px 8px -5px rgba(0, 0, 0, 0.25);
+  padding-top: 310px;
+  padding-bottom: 310px;
+  text-align: center;
+}
+
+.trailer__button {
+  font-family: "HeadlandOne";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  color: #26c7ea;
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+  cursor: pointer;
+
+  padding: 25px 20px 25px 19px;
+}

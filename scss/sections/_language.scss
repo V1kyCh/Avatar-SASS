@@ -1,0 +1,58 @@
+.language {
+    background-image: url(../../img/Language-img/bc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 33px;
+    padding-bottom: 40px;
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 35px;
+    }
+    
+    &__item {
+        background-color: rgba(255, 255, 255, 0.7);;
+        flex-basis: calc((100% - 105px) / 3);
+        padding-top: 36px;
+        padding-bottom: 36px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        animation-name: calm-heart-beat;
+        animation-duration: 1000ms;
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+
+        &:hover {
+            animation-name: heart-beat;
+            animation-duration: 2000ms;
+            animation-timing-function: ease-in-out;
+        }
+    }
+    
+    &__title {
+        font-family: 'HeadlandOne';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.25; 
+    color: #1F2426;
+    text-align: center;
+    margin-bottom: 47px;
+    }
+    
+    &__image {
+        width: 152px;
+    }
+    
+    &__subtitle {
+        font-family: 'HeadlandOne';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1; 
+    text-align: center;
+    color: #000000;
+    }
+}

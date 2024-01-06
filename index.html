@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avatar SASS</title>
+    <!-- шрифти -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" rel="stylesheet"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="./dist/css/main.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__gradient">
+            <div class="container header__container">
+                <img class="header__logo" data-aos="zoom-in" data-aos-duration="2000" src="./img/header-hero/header-logo.png" alt="логотип аватар">
+                <div class="header__languages">
+                    <p class="header__language-eng">ENG</p>
+                    <svg class="header__switch">
+                        <use href="./img/svg/symbol-defs.svg#header-switch"></use>
+                    </svg>
+                    <p class="header__language-uk">UK</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- секція герой -->
+        <section class="hero">
+            <div class="hero__gradient hero__oddball-box">
+                <img class="hero__oddball" data-aos="fade-left" data-aos-duration="2000" src="./img/header-hero/header-hero-bc2.webp">
+                <div class="container">
+                    <div class="hero__box">
+                        <ul class="hero__poems" data-aos="flip-right" data-aos-duration="2000">
+                            <li class="hero__poem hero__poem1">
+                                <p class="hero__text-navi">
+                                    Oe perlltxe hu tsamsiyu!
+                                    Ngari hu Eywa salew tirea,
+                                    tokx 'ì'awn slu Na'viyä hapxì.
+                                    Säwem nìayoeng!
+                                </p>
+                            </li>
+                            <li class="hero-poem-wiget">
+
+                            </li>
+                            <li class="hero__poem">
+                                <p class="hero__text-uk">
+                                    Хоробрий воїне, звертаюсь до тебе!
+                                    Твій дух йде з Ейвою,
+                                    твоє тіло залишається,
+                                    щоб стати частиною Народу.
+                                    Борись разом з нами!
+                                </p>
+                            </li>
+                        </ul>
+                        <ul class="hero__socials">
+                            <li class="hero__social">
+                                <svg class="hero__social-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-instagram"></use>
+                                </svg>
+                            </li>
+                            <li class="hero__social">
+                                <svg class="hero__social-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </li>
+                            <li class="hero__social">
+                                <svg class="hero__social-icon">
+                                    <use href="./img/svg/symbol-defs.svg#icon-youtube"></use>
+                                </svg>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="hero__button" data-aos="zoom-in-right" data-aos-duration="1500" type="button" data-modal-open>
+                        Приєднатися до клану
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- first-phrase -->
+        <section class="phrase" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2 class="phrase__text">
+                    “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ
+                </h2>
+                <h2 class="phrase__text">
+                    ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+                </h2>
+                <h3 class="phrase__name">
+                    Джейк Саллі
+                </h3>
+                <img class="phrase__image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
+        </section>
+        <!-- trailer -->
+        <section class="trailer">
+            <div class="container">
+                <a href="https://youtu.be/EeKXJqYXo38?si=YlHTmYuohMzojdwZ" class="trailer-link" target="_blank">
+                    <button class="trailer__button" type="button">
+                        Дивитись трейлер
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!-- second-phrase -->
+        <section class="phrase" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2 class="phrase__text">
+                    “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+                </h2>
+                <h2 class="phrase__text">
+                    ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+                </h2>
+                <h3 class="phrase__name">
+                    Джейк Саллі
+                </h3>
+                <img class="phrase__image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
+        </section>
+        <!-- language -->
+        <section class="language">
+            <div class="container">
+                <h2 class="language__title">
+                    Вчимо мову На’ві
+                </h2>
+                <ul class="language__list">
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Привіт</h3>
+                        <img class="language__image" src="./img/Language-img/1,4.webp" alt="стріла повернута вліво">
+                        <p class="language__subtitle language__subtitle-navi">Kaltxì</p>
+                    </li>
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Як справи?</h3>
+                        <img class="language__image" src="./img/Language-img/2,5.webp"
+                            alt="стріли в різні сторони а посередину пташка">
+                        <p class="language__subtitle language__subtitle-navi">Ngaru lu fpom srak?</p>
+                    </li>
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Все добре</h3>
+                        <img class="language__image" src="./img/Language-img/3,6.webp" alt="стріла повернута вправо">
+                        <p class="language__subtitle language__subtitle-navi">Lu fpom</p>
+                    </li>
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Дякую</h3>
+                        <img class="language__image" src="./img/Language-img/1,4.webp" alt="стріла повернута вліво">
+                        <p class="language__subtitle language__subtitle-navi">Irayo si </p>
+                    </li>
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Я бачу тебе</h3>
+                        <img class="language__image" src="./img/Language-img/2,5.webp"
+                            alt="стріли в різні сторони а посередину пташка">
+                        <p class="language__subtitle language__subtitle-navi">Oel ngati kameie</p>
+                    </li>
+                    <li class="language__item">
+                        <h3 class="language__subtitle language__subtitle-uk">Слідуй за мною!</h3>
+                        <img class="language__image" src="./img/Language-img/3,6.webp" alt="стріла повернута вправо">
+                        <p class="language__subtitle language__subtitle-navi">Nong oet!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- third-phrase -->
+        <section class="phrase" data-aos="fade-up" data-aos-duration="1500">
+            <div class="container">
+                <h2 class="phrase__text">
+                    “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
+                </h2>
+                <h3 class="phrase__name">
+                    Нейтірі
+                </h3>
+                <img class="phrase__image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="footer" data-aos="fade-up" data-aos-duration="1000"></footer>
+    </main>
+
+    <div class="backdrop-first is-hidden" data-modal>
+        <div class="modal-first">
+            <form class="modal-first__form">
+                <ul class="modal-first__list">
+                    <li class="modal-first__item">
+                        <label class="modal-first__label modal-first__label-name" for="modal-first__input-name">Ім’я</label>
+                        <input type="text" class="modal-first__input" id="modal-first__input-name" required>
+                    </li>
+                    <li class="modal-first__item">
+                        <label class="modal-first__label modal-first__label-email" for="modal-first__input-email">Email</label>
+                        <input type="email" class="modal-first__input" id="modal-first__input-email" required>
+                    </li>
+                </ul>
+                <button class="modal-first__close" type="button" data-modal-close>
+                    <svg class="modal-first__close-svg">
+                        <use href="./img/symbol-defs.svg#icon-modal-close"></use>
+                      </svg>
+                </button>
+                <button class="modal-first__button" type="submit">Приєднатися до клану</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="./js/modal.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+.header {
+  background-image: url(../../img/header-hero/header-hero-bc-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  // outline: solid blue;
+  height: 120px;
+  position: relative;
+
+  &__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    padding-top: 24px;
+    background: linear-gradient(90deg, rgba(54, 82, 106, 0.89) 3%, rgba(55, 107, 151, 0.07) 86.75%);
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 244px;
+    height: 96px;
+  }
+
+  &__languages {
+    display: flex;
+    gap: 12px;
+  }
+
+  &__language-eng {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #ffffff;
+  }
+
+  &__language-uk {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #ffffff;
+  }
+
+  &__switch {
+    width: 36px;
+    height: 20px;
+  }
+}

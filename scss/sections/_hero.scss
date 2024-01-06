@@ -1,0 +1,101 @@
+.hero {
+  position: relative;
+  height: 577px;
+  background-image: url(../../img/header-hero/header-hero-bc-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 74%;
+
+  &__gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 577px;
+    padding-top: 100px;
+    padding-bottom: 19px;
+    background: linear-gradient(
+      90deg,
+      rgba(54, 82, 106, 0.89) 3%,
+      rgba(55, 107, 151, 0.07) 86.75%
+    );
+  }
+
+  &__oddball-box {
+    position: relative;
+  }
+
+  &__oddball {
+    position: absolute;
+    top: -23px;
+    left: 550px;
+  }
+
+  &__box {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__poems {
+    padding-top: 67px;
+    display: flex;
+    gap: 37px;
+    flex-direction: column;
+  }
+
+  &__poem {
+    width: 376px;
+  }
+
+  &__poem1 {
+    width: 298px;
+  }
+
+  &__text-navi {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+  }
+
+  &__text-uk {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+  }
+
+  &__socials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__link {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  &__social-icon {
+    width: 34px;
+    height: 34px;
+    fill: #ffffff;
+  }
+
+  &__button {
+    width: 260px;
+    height: 80px;
+    margin-top: 45px;
+    font-family: "HeadlandOne";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.25;
+    text-align: center;
+    color: #26c7ea;
+    cursor: pointer;
+    background: #0b0e66;
+    border: 3px solid #26c7ea;
+    border-radius: 45px 0px;
+  }
+}
